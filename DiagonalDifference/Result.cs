@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace DiagonalDifference
 {
@@ -30,7 +31,7 @@ namespace DiagonalDifference
                     }
                 }
             }
-            return leftToRight-rightToLeft;
+            return Math.Abs(leftToRight-rightToLeft);
         }
 
     }

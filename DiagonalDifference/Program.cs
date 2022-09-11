@@ -14,7 +14,7 @@ namespace DiagonalDifference
             };
 
             int result = Result.diagonalDifference(arr);
-            Console.WriteLine(Math.Abs(result));
+            Console.WriteLine(result);
         }
     }
 }
