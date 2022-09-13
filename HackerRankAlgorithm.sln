@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeConversion", "TimeConve
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SparseArrays", "SparseArrays\SparseArrays.csproj", "{E56B0CF8-715F-44E5-AD40-8A998ED2E996}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlippingBits", "FlippingBits\FlippingBits.csproj", "{842C9B80-71FF-43B8-88BC-C6D509E28D4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlippingBits", "FlippingBits\FlippingBits.csproj", "{842C9B80-71FF-43B8-88BC-C6D509E28D4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiagonalDifference", "DiagonalDifference\DiagonalDifference.csproj", "{6DAB5A43-C027-45C7-90E0-71419BD4F26E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiagonalDifference", "DiagonalDifference\DiagonalDifference.csproj", "{6DAB5A43-C027-45C7-90E0-71419BD4F26E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountingSort1", "CountingSort1\CountingSort1.csproj", "{F1ECC91F-0178-4179-A49E-C91DD0882F10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{6DAB5A43-C027-45C7-90E0-71419BD4F26E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DAB5A43-C027-45C7-90E0-71419BD4F26E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DAB5A43-C027-45C7-90E0-71419BD4F26E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1ECC91F-0178-4179-A49E-C91DD0882F10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1ECC91F-0178-4179-A49E-C91DD0882F10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1ECC91F-0178-4179-A49E-C91DD0882F10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1ECC91F-0178-4179-A49E-C91DD0882F10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
