@@ -17,7 +17,11 @@ namespace CountingSort1
 
             List<int> resultArr = new List<int>();
 
-            //int count = 0;
+            for (int i = 0; i < arr.Count; i++)
+            {
+                result[i] = 0;
+            }
+
             for (int i = 0; i < arr.Count; i++)
             {
                 int num = arr[i];
@@ -26,7 +30,8 @@ namespace CountingSort1
 
             for (int i = 0; i < arr.Count; i++)
             {
-                resultArr.Add(result[i]);
+                if (result[i] != 0)
+                    resultArr.Add(result[i]);
             }
 
             return resultArr;
